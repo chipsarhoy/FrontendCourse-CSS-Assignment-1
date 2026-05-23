@@ -15,15 +15,24 @@ header {
 }
 
 nav {
-  width: 100%;
+  border: 3px purple dotted;
+  width: 90vw;
   display: block;
   margin: auto;
 }
 
+.website-name {
+  display: inline;
+  margin-right: 60vw;
+}
+
+.nav-links {
+  display: inline;
+}
+
 a {
   border: 1px solid black;
-  margin: 0px 100px;
-  padding: 30px;
+  padding: 15px;
   text-align: center;
   color: white;
   font-size: 30px;
