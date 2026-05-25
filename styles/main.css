@@ -18,12 +18,11 @@ header {
 nav {
   width: 95vw;
   display: block;
-  margin: auto;
 }
 
 .website-name {
   display: inline;
-  margin-right: 20vw;
+  margin-right: 30vw;
 }
 
 .nav-links {
