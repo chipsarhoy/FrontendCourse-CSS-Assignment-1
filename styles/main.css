@@ -1,12 +1,15 @@
 html,
 body {
   margin: 0px;
+  margin-top: 0;
   padding: 0px;
-  height: 2000px;
+  height: 1000px;
+  border: 1px black solid;
 }
 
 header {
-  height: 50px;
+  margin-top: 0px;
+  height: 60px;
   width: 100%;
   background-color: rgb(50, 133, 243);
   position: fixed;
@@ -16,24 +19,45 @@ header {
 }
 
 nav {
-  width: 95vw;
+  /* width: 100%; */
   display: block;
+  margin: auto;
 }
 
-.website-name {
-  display: inline;
-  margin-right: 30vw;
+.logo {
+  padding-top: 5px;
+  display: inline-block;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
 }
 
 .nav-links {
-  display: inline;
+  display: inline-block;
+  height: 30px;
+  margin: 0% 30%;
+  padding-top: 10px;
 }
 
-a {
-  border: 1px solid black;
-  padding: 10px;
+.nav-links a,
+.login a {
   color: turquoise;
-  font-size: 30px;
+  font-size: 40px;
+}
+
+#menu {
+  display: inline-block;
+  margin-right: 200px;
+}
+
+#about {
+  display: inline-block;
+}
+
+.login {
+  display: inline-block;
 }
 
 .hero-section {
@@ -43,16 +67,13 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 100vw;
   height: 100vh;
-  border: 5px black solid;
 }
 
 .hero-section h1 {
-  color: turquoise;
+  color: rgba(64, 224, 208, 0.644);
   text-align: center;
-  font-size: 50px;
+  font-size: 80px;
   padding-top: 300px;
-  margin-top: 50px;
   z-index: 1;
 }
